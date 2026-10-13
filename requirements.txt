@@ -1,0 +1,10 @@
+# Python: 3.9.16 (install separately)
+# CUDA: 11.3 (compatible PyTorch CUDA build)
+
+--extra-index-url https://download.pytorch.org/whl/cu113
+--find-links https://data.pyg.org/whl/torch-1.12.1+cu113.html
+
+torch==1.12.1+cu113
+torch-scatter==2.1.0+pt112cu113
+torch-sparse==0.6.16+pt112cu113
+torch-geometric==2.3.0
